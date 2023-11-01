@@ -1,0 +1,39 @@
+.ex1 img {
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    animation: exampl1 1s alternate infinite;
+}
+
+.ex2 img {
+  float: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+  animation: exampl2 1s alternate infinite;
+}
+
+@keyframes exampl2 {
+
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(2);
+  }
+}
+
+@keyframes exampl1 {
+
+  0% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(0.5);
+  }
+}
